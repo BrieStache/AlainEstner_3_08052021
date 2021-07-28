@@ -1,0 +1,98 @@
+body {
+font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background: #f6f6f6;
+}
+      
+* a {
+text-decoration: none;
+    color: white;
+}
+      
+.main {
+    margin: 0;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+    
+.imagejay {
+  background-image: url(../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
+  width: 350px;
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.imagestil {
+  background-image: url(../images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg);
+
+  width: 350px;
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.imagetoa {
+  background-image: url(../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
+  width: 350px;
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 15px 0px 0px; 
+}
+
+.imagelouis {
+  background-image: url(../images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg);
+  width: 350px;
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 15px 0px 0px;
+}
+
+footer {
+  width: 100%;
+  background-color: #313132;
+  color: white;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer li {
+  list-style-type: none;
+}
+
+footer > h2 {
+  font-family: "Shrikhand", cursive;
+  font-size: 1.2em;
+  margin-left: 20px;
+  padding-top: 20px;
+}
+
+.fa-hands-helping {
+  font-size: 15px;
+  margin-right: 25px;
+  margin-left: 0px;
+}
+
+.outil {
+  font-size: 15px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.mention {
+  margin: 0;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
