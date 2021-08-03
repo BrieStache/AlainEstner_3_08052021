@@ -445,10 +445,10 @@ h1.title {
   font-size: 0.9rem;
 }
 
-.imagejay {
-  background-image: url(../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
-  width: 318px;
-  height: 174px;
+.imagejay {        /* la palette du goût */
+  background-image: url(../../images/restaurants/imagejay.jpg);   
+  width: 320px;
+  height: 175px;
   background-size: cover;
   background-position: center;
   border-radius: 15px 15px 0px 0px;
@@ -460,10 +460,10 @@ h1.title {
           justify-content: flex-end;
 }
 
-.imagestil {
-  background-image: url(../../images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg);
-  width: 318px;
-  height: 174px;
+.imagestil {     /* la note enchantée */
+  background-image: url(../../images/restaurants/imagestil.jpg);   
+  width: 320px;
+  height: 175px;
   background-size: cover;
   background-position: center;
   border-radius: 15px 15px 0px 0px;
@@ -475,10 +475,10 @@ h1.title {
           justify-content: flex-end;
 }
 
-.imagetoa {
-  background-image: url(../../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
-  width: 318px;
-  height: 174px;
+.imagetoa {         /* à la française */
+  
+  width: 320px;
+  height: 175px;
   background-size: cover;
   background-position: center;
   border-radius: 15px 15px 0px 0px;
@@ -490,10 +490,10 @@ h1.title {
           justify-content: flex-end;
 }
 
-.imagelouis {
-  background-image: url(../images\restaurants\louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg);
-  width: 318px;
-  height: 174px;
+.imagelouis {       /* le délice des sens */
+  background-image: url(../../images/restaurants/imagelouis.jpg);
+  width: 320px;
+  height: 175px;
   background-size: cover;
   background-position: center;
   border-radius: 15px 15px 0px 0px;
