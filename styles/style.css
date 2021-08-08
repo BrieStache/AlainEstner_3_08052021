@@ -283,7 +283,7 @@ h1.title {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  margin-left: 95px;
+  margin-left: 120px;
   padding-top: 15px;
   text-align: center;
 }
@@ -355,8 +355,8 @@ h1.title {
           align-items: center;
   background-color: #f6f6f6;
   border-radius: 20px;
-  width: 300px;
-  height: 60px;
+  width: 50px;
+  height: 30px;
   margin: 20px;
   margin-left: 35px;
   margin-bottom: 40px;
