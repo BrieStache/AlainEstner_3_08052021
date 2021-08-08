@@ -285,6 +285,7 @@ h1.title {
           flex-direction: row;
   margin-left: 95px;
   padding-top: 15px;
+  text-align: center;
 }
 .container a {
   text-decoration: none;
@@ -334,13 +335,13 @@ h1.title {
 
 .titre {
   text-align: start;
-  font-size: 1.1em;
+  font-size: 25px;
   font-weight: 900;
   margin: 20px;
 }
 
 .tuto {
-  font-size: 1rem;
+  font-size: 15px;
   width: 100%;
   padding-left: 0;
   cursor: pointer;
@@ -379,7 +380,7 @@ h1.title {
 .number {
   border-radius: 80px;
   border: solid 2px #9356dc;
-  margin-left: -10px;
+  margin-left: 10px;
   width: 20px;
   height: 20px;
   z-index: 1;
@@ -390,8 +391,11 @@ h1.title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0;
+  margin: 12px 5px 5px 5px;
   padding-left: 5px;
+  background-position: center;
+  font-size: 25px;
+  text-align: center;
 }
 
 .fa-mobile-alt {
@@ -418,8 +422,10 @@ h1.title {
   padding-bottom: 20px;
   margin-left: 8px;
 }
+
 .carte h2 {
-  padding-left: 20px;
+  text-align: center;
+  padding-top: 1rem;
 }
 .carte a {
   text-decoration: none;
@@ -427,6 +433,11 @@ h1.title {
 }
 .carte a:hover {
   color: #ff79da;
+}
+
+.restaurant-container {
+  display: flex;
+  justify-content: center;
 }
 
 .restaurant {
@@ -445,9 +456,8 @@ h1.title {
   font-size: 0.9rem;
 }
 
-.imagejay {        /* la palette du goût */
-  background-image: url(../../images/restaurants/imagejay.jpg);   
-  width: 320px;
+.restaurant .image {
+  width: 100%;
   height: 175px;
   background-size: cover;
   background-position: center;
@@ -456,53 +466,24 @@ h1.title {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
 }
 
-.imagestil {     /* la note enchantée */
-  background-image: url(../../images/restaurants/imagestil.jpg);   
-  width: 320px;
-  height: 175px;
-  background-size: cover;
-  background-position: center;
-  border-radius: 15px 15px 0px 0px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+.jay { /* le délice des sens */
+  background-image: url("../images/restaurants/imagejay.jpg");
 }
 
-.imagetoa {         /* à la française */
-  
-  width: 320px;
-  height: 175px;
-  background-size: cover;
-  background-position: center;
-  border-radius: 15px 15px 0px 0px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+.stil { /* le délice des sens */
+  background-image: url("../images/restaurants/imagestil.jpg");
 }
 
-.imagelouis {       /* le délice des sens */
-  background-image: url(../../images/restaurants/imagelouis.jpg);
-  width: 320px;
-  height: 175px;
-  background-size: cover;
-  background-position: center;
-  border-radius: 15px 15px 0px 0px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+.tao { /* le délice des sens */
+  background-image: url("../images/restaurants/imagetao.jpg");
+}
+
+.louis { /* le délice des sens */
+  background-image: url("../images/restaurants/imagelouis.jpg");
 }
 
 .name p {
