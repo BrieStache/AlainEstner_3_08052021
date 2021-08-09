@@ -431,11 +431,6 @@ h1.title {
   color: #ff79da;
 }
 
-.restaurant-container {
-  display: flex;
-  justify-content: center;
-}
-
 .restaurant {
   width: 318px;
   height: 248px;
