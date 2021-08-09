@@ -263,7 +263,7 @@ body, main {
 h1.title {
   display: block;
   font-family: "Shrikhand", cursive;
-  font-size: 2em;
+  font-size: 40px;
   text-align: center;
 }
 
@@ -382,7 +382,7 @@ h1.title {
   border: solid 2px #9356dc;
   margin-left: 10px;
   width: 20px;
-  height: 20px;
+  height: 10px;
   z-index: 1;
   background-color: #9356dc;
   color: white;
