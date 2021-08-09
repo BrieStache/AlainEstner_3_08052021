@@ -934,7 +934,7 @@ footer > h2 {
 }
 
 /* Mise en place des mediaQueries et des breakpoint du site  */
-@media screen and (min-width: 375px) and (max-width: 710px) {
+@media screen and (min-width: 320px) and (max-width: 710px) {
   .container {
     text-align: center;
   }
