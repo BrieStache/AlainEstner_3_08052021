@@ -541,8 +541,7 @@ h1.title {
       -ms-transform: scale(1);
           transform: scale(1);
   background: -webkit-linear-gradient(#9356dc, #ff79da);
-  -webkit-background-clip: text;
-          background-clip: text;
+ 
   -webkit-text-fill-color: transparent;
 }
 .heart-color:hover.heart {
@@ -657,8 +656,6 @@ footer > h2 {
       -ms-transform: scale(1);
           transform: scale(1);
   background: -webkit-linear-gradient(#9356dc, #ff79da);
-  -webkit-background-clip: text;
-          background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .rest__heart-color:hover .rest__heart {
